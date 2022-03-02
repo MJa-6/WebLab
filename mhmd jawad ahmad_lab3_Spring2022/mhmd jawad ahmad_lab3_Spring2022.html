@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        #section {
+            border: 10px solid;
+            border-color: white;
+            background-color: white;
+        }
+
+        body {
+            margin: 0% 10%;
+            background-image: url(back.jpg);
+        }
+
+        #header {
+            text-align: right;
+            background-color: #A8F0F0;
+        }
+
+        #h2 {
+            font-size: 14pt;
+        }
+
+        #article1 {
+            border: 4px solid;
+            border-color: #C2E9E9;
+            background-color: #E8FBFB;
+            padding: 5px;
+            margin-top: 10px;
+
+        }
+
+        #content{
+            display: flex;
+        }
+
+        #article2 {
+            border: 4px solid;
+            border-color: #C2E9E9;
+            background-color: #E8FBFB;
+            padding: 5px;
+            margin-top: 10px;
+
+        }
+
+        #left{
+            width: 25%;
+            margin-right: 10px;
+            background-color: aqua;
+            border: 5px solid darkcyan;
+            height:fit-content;
+        }
+        #right{
+            width: 75%;
+        }
+        #left h1{
+            font-size:xx-large;
+        }
+
+        #inner_s1 {
+            display: flex;
+        }
+
+        #inner_s2 {
+            display: flex;
+        }
+
+        #span1 {
+            border-color: violet;
+            border-bottom: 2px dashed blue;
+        }
+
+        #span2 {
+            border-color: violet;
+            border-bottom: 2px dashed blue;
+        }
+
+        @media (max-width: 500px) {
+                section {
+                    width: 100%;
+                    -webkit-flex-direction: column;
+                    flex-direction: column;
+                }
+            }
+
+            *:hover{
+                background-color: yellow;
+            }
+    </style>
+</head>
+
+<body>
+    <section id="section">
+        <header id="header">
+            <h1>
+                Ahmad's Journal
+            </h1>
+            <h2 id="h2">
+                so fresh and so clean
+            </h2>
+        </header>
+        <article id="content">
+            <section id="left">
+                <h1>Friends</h1>
+                <ul>
+                    <li><a href=“#Testing1”>Testing1</a></li>
+                    <li><a href=“#Testing2”>Testing3</a></li>
+                    <li><a href=“#Testing3”>Testing3</a> </li>
+                </ul>
+
+            </section>
+            <section id="right">
+                <article id="article1">
+                    <section id="inner_s1">
+                        <div>
+                            <h2>
+                                <span id="span1" class="border">02/03/2022:</span> computer
+                            </h2>
+                        </div>
+                        <div><img src="download.jpg" alt="computer"></div>
+                    </section>
+                    <div>
+                        <p>yesterday i went with my friends to sbeity, my friend who recently got her driver's license
+                            took
+                            us
+                            there (what better way to say i love you to your amigosssss)</p>
+                    </div>
+                </article>
+                <article id="article2">
+                    <section id="inner_s2">
+                        <div>
+                            <h2>
+                                <span id="span2">13/02/2022:</span> bday on the beach
+                            </h2>
+                        </div>
+                        <div><img src="bday.jpg" alt="bday"></div>
+                    </section>
+                    <div>
+                        <p> Thank you for being a friend! It goes without saying that friendships are sources of joy and
+                            <br>laughter — our nearest and dearest challenge us and encourage us to keep reaching for
+                            the
+                            stars.
+                            Friendships appear in many forms as life leads us to choose different paths
+                        </p>
+                    </div>
+                </article>
+            </section>
+    </section>
+    </article>
+</body>
+
+</html>
